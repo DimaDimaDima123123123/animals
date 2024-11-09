@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Continent">
+    <Position X="12.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAQAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Continent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herbivore">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEAAAAACAAAAAAgACAAAAAAAAIAAAAkAAAAAAAAAAA=</HashCode>
+      <FileName>Herbivore.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Carnivore">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAEAAAAAAAAAAAIAAAAAEAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Carnivore.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Africa">
+    <Position X="11.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Africa.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NorthAmerica">
+    <Position X="13.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NorthAmerica.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wildebeest">
+    <Position X="9.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Wildebeest.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bison">
+    <Position X="6.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bison.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lion">
+    <Position X="2" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="Carnivore" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="5.632" />
+        <Point X="4.25" Y="5.875" />
+        <Point X="2.938" Y="5.875" />
+        <Point X="2.938" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Lion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wolf">
+    <Position X="4.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Wolf.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
